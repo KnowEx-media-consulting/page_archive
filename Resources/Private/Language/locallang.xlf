@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:page_archive/Resources/Private/Language/locallang.xlf" product-name="page_archive">
+		<header/>
+		<body>
+			<trans-unit id="doktype.archive">
+				<source>Archive</source>
+			</trans-unit>
+			<trans-unit id="contextmenu.archive">
+				<source>Archive</source>
+			</trans-unit>
+			<trans-unit id="contextmenu.confirm.title">
+				<source>Archive page</source>
+			</trans-unit>
+			<trans-unit id="contextmenu.confirm.message">
+				<source>Archive the page "%s" including all subpages? The pages disappear from the page tree and from the website. To see and restore them, switch off "Hide archive" in the menu of the page tree.</source>
+			</trans-unit>
+			<trans-unit id="button.cancel">
+				<source>Cancel</source>
+			</trans-unit>
+			<trans-unit id="message.archived.title">
+				<source>Archived</source>
+			</trans-unit>
+			<trans-unit id="message.archived">
+				<source>%d page(s) archived.</source>
+			</trans-unit>
+			<trans-unit id="message.restored.title">
+				<source>Restored</source>
+			</trans-unit>
+			<trans-unit id="message.restored">
+				<source>%d page(s) restored.</source>
+			</trans-unit>
+			<trans-unit id="error.generic">
+				<source>The action could not be executed.</source>
+			</trans-unit>
+			<trans-unit id="error.notFound">
+				<source>Page %d was not found.</source>
+			</trans-unit>
+			<trans-unit id="error.siteRoot">
+				<source>The page or one of its subpages is the root page of a site and cannot be archived.</source>
+			</trans-unit>
+			<trans-unit id="error.alreadyArchived">
+				<source>The page is already archived.</source>
+			</trans-unit>
+			<trans-unit id="error.notArchived">
+				<source>The page is not archived.</source>
+			</trans-unit>
+			<trans-unit id="error.parentArchived">
+				<source>The parent page is archived as well. Please restore the parent page.</source>
+			</trans-unit>
+			<trans-unit id="error.pageType">
+				<source>You are not allowed to use the page type %d.</source>
+			</trans-unit>
+			<trans-unit id="error.fields">
+				<source>You are not allowed to change the type or the visibility of pages.</source>
+			</trans-unit>
+			<trans-unit id="error.access">
+				<source>You are not allowed to edit the page "%s" [%d].</source>
+			</trans-unit>
+			<trans-unit id="module.title">
+				<source>Archive</source>
+			</trans-unit>
+			<trans-unit id="action.restore">
+				<source>Restore</source>
+			</trans-unit>
+			<trans-unit id="contextmenu.restore.title">
+				<source>Restore page</source>
+			</trans-unit>
+			<trans-unit id="contextmenu.restore.message">
+				<source>Restore the page "%s" including all archived subpages? The pages return to the page tree with the type and visibility they had before. Pages that were visible before are online again.</source>
+			</trans-unit>
+			<trans-unit id="tree.hideArchived">
+				<source>Hide archive</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:page_archive/Resources/Private/Language/locallang.xlf" product-name="page_archive">
+		<header/>
+		<body>
+			<trans-unit id="doktype.archive">
+				<source>Archive</source>
+				<target>Archiv</target>
+			</trans-unit>
+			<trans-unit id="contextmenu.archive">
+				<source>Archive</source>
+				<target>Archivieren</target>
+			</trans-unit>
+			<trans-unit id="contextmenu.confirm.title">
+				<source>Archive page</source>
+				<target>Seite archivieren</target>
+			</trans-unit>
+			<trans-unit id="contextmenu.confirm.message">
+				<source>Archive the page "%s" including all subpages? The pages disappear from the page tree and from the website. To see and restore them, switch off "Hide archive" in the menu of the page tree.</source>
+				<target>Die Seite „%s“ samt allen Unterseiten archivieren? Die Seiten verschwinden aus dem Seitenbaum und von der Website. Zum Ansehen und Wiederherstellen im Menü des Seitenbaums „Archiv ausblenden“ abschalten.</target>
+			</trans-unit>
+			<trans-unit id="button.cancel">
+				<source>Cancel</source>
+				<target>Abbrechen</target>
+			</trans-unit>
+			<trans-unit id="message.archived.title">
+				<source>Archived</source>
+				<target>Archiviert</target>
+			</trans-unit>
+			<trans-unit id="message.archived">
+				<source>%d page(s) archived.</source>
+				<target>%d Seite(n) archiviert.</target>
+			</trans-unit>
+			<trans-unit id="message.restored.title">
+				<source>Restored</source>
+				<target>Wiederhergestellt</target>
+			</trans-unit>
+			<trans-unit id="message.restored">
+				<source>%d page(s) restored.</source>
+				<target>%d Seite(n) wiederhergestellt.</target>
+			</trans-unit>
+			<trans-unit id="error.generic">
+				<source>The action could not be executed.</source>
+				<target>Die Aktion konnte nicht ausgeführt werden.</target>
+			</trans-unit>
+			<trans-unit id="error.notFound">
+				<source>Page %d was not found.</source>
+				<target>Die Seite %d wurde nicht gefunden.</target>
+			</trans-unit>
+			<trans-unit id="error.siteRoot">
+				<source>The page or one of its subpages is the root page of a site and cannot be archived.</source>
+				<target>Die Seite oder eine ihrer Unterseiten ist die Startseite einer Site und kann nicht archiviert werden.</target>
+			</trans-unit>
+			<trans-unit id="error.alreadyArchived">
+				<source>The page is already archived.</source>
+				<target>Die Seite ist bereits archiviert.</target>
+			</trans-unit>
+			<trans-unit id="error.notArchived">
+				<source>The page is not archived.</source>
+				<target>Die Seite ist nicht archiviert.</target>
+			</trans-unit>
+			<trans-unit id="error.parentArchived">
+				<source>The parent page is archived as well. Please restore the parent page.</source>
+				<target>Die übergeordnete Seite ist ebenfalls archiviert. Bitte die übergeordnete Seite wiederherstellen.</target>
+			</trans-unit>
+			<trans-unit id="error.pageType">
+				<source>You are not allowed to use the page type %d.</source>
+				<target>Sie dürfen den Seitentyp %d nicht verwenden.</target>
+			</trans-unit>
+			<trans-unit id="error.fields">
+				<source>You are not allowed to change the type or the visibility of pages.</source>
+				<target>Sie dürfen Typ oder Sichtbarkeit von Seiten nicht ändern.</target>
+			</trans-unit>
+			<trans-unit id="error.access">
+				<source>You are not allowed to edit the page "%s" [%d].</source>
+				<target>Sie dürfen die Seite „%s“ [%d] nicht bearbeiten.</target>
+			</trans-unit>
+			<trans-unit id="module.title">
+				<source>Archive</source>
+				<target>Archiv</target>
+			</trans-unit>
+			<trans-unit id="action.restore">
+				<source>Restore</source>
+				<target>Wiederherstellen</target>
+			</trans-unit>
+			<trans-unit id="contextmenu.restore.title">
+				<source>Restore page</source>
+				<target>Seite wiederherstellen</target>
+			</trans-unit>
+			<trans-unit id="contextmenu.restore.message">
+				<source>Restore the page "%s" including all archived subpages? The pages return to the page tree with the type and visibility they had before. Pages that were visible before are online again.</source>
+				<target>Die Seite „%s“ samt allen archivierten Unterseiten wiederherstellen? Die Seiten kommen mit dem Typ und der Sichtbarkeit von vorher in den Seitenbaum zurück. Seiten, die vorher sichtbar waren, sind dann wieder online.</target>
+			</trans-unit>
+			<trans-unit id="tree.hideArchived">
+				<source>Hide archive</source>
+				<target>Archiv ausblenden</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

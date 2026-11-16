@@ -1,0 +1,12 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+    public: false
+
+  Knowex\PageArchive\:
+    resource: '../Classes/*'
+    exclude: '../Classes/Exception/*'
+
+  Knowex\PageArchive\Hooks\DataHandlerHook:
+    public: true

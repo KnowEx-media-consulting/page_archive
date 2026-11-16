@@ -1,0 +1,5 @@
+# Archivierte Seiten samt Unterseiten im Seitenbaum ausblenden, solange der Benutzer den Filter
+# "Archiv ausblenden" im Menü des Seitenbaums nicht abschaltet.
+[pageArchiveHideArchived()]
+    options.pageTree.excludeDoktypes := addToList(187)
+[end]
