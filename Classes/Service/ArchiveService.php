@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Knowex\PageArchive\Service;
 
 use Doctrine\DBAL\ArrayParameterType;
+use Doctrine\DBAL\Exception;
 use Knowex\PageArchive\Exception\ArchiveException;
 use TYPO3\CMS\Core\Authentication\BackendUserAuthentication;
 use TYPO3\CMS\Core\Database\Connection;
@@ -40,6 +41,7 @@ final class ArchiveService
      * Archiviert die Seite samt allen Unterseiten.
      *
      * @return int Anzahl der archivierten Seiten
+     * @throws Exception
      */
     public function archive(int $pageUid): int
     {
@@ -74,6 +76,7 @@ final class ArchiveService
      * Stellt die archivierte Seite samt allen archivierten Unterseiten im ursprünglichen Zustand wieder her.
      *
      * @return int Anzahl der wiederhergestellten Seiten
+     * @throws Exception
      */
     public function restore(int $pageUid): int
     {
@@ -125,6 +128,7 @@ final class ArchiveService
      * Die Seite selbst (erster Eintrag) und alle Unterseiten der Standardsprache, auch deaktivierte.
      *
      * @return list<array<string, mixed>>
+     * @throws Exception
      */
     private function getBranch(int $pageUid): array
     {
@@ -160,6 +164,7 @@ final class ArchiveService
 
     /**
      * @return array<string, mixed>|null
+     * @throws Exception
      */
     private function getPage(int $pageUid): ?array
     {

@@ -6,6 +6,7 @@ namespace Knowex\PageArchive\ContextMenu;
 
 use Knowex\PageArchive\Service\ArchiveService;
 use TYPO3\CMS\Backend\ContextMenu\ItemProviders\AbstractProvider;
+use TYPO3\CMS\Backend\Routing\Exception\RouteNotFoundException;
 use TYPO3\CMS\Backend\Routing\UriBuilder;
 use TYPO3\CMS\Backend\Utility\BackendUtility;
 use TYPO3\CMS\Core\Type\Bitmask\Permission;
@@ -103,6 +104,7 @@ final class ArchiveItemProvider extends AbstractProvider
 
     /**
      * @return array<string, string>
+     * @throws RouteNotFoundException
      */
     protected function getAdditionalAttributes(string $itemName): array
     {
