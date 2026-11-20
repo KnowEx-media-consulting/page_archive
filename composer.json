@@ -2,7 +2,7 @@
     "name": "knowex/page-archive",
     "type": "typo3-cms-extension",
     "description": "Archive for pages: hides old pages from the backend page tree without deleting them and restores them with one click.",
-    "homepage": "https://www.knowex.de/",
+    "homepage": "https://github.com/KnowEx-media-consulting/page_archive",
     "license": ["GPL-2.0-or-later"],
     "authors": [
         {
@@ -12,6 +12,11 @@
             "role": "Developer"
         }
     ],
+    "support": {
+        "issues": "https://github.com/KnowEx-media-consulting/page_archive/issues",
+        "source": "https://github.com/KnowEx-media-consulting/page_archive",
+        "docs": "https://github.com/KnowEx-media-consulting/page_archive/tree/master/Documentation"
+    },
     "keywords": ["TYPO3 CMS", "archive", "page tree", "backend"],
     "require": {
         "php": "^8.3",
